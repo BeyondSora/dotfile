@@ -71,10 +71,10 @@ set columns=80
 set laststatus=2
 let mapleader=","
 
-map <leader>h <C-W>h<C-W><Bar>
-map <leader>l <C-W>l<C-W><Bar>
-map <leader>j <C-W>j<C-W><Bar>
-map <leader>k <C-W>k<C-W><Bar>
+map <leader>h <C-W>h
+map <leader>l <C-W>l
+map <leader>j <C-W>j
+map <leader>k <C-W>k
 
 let g:syntastic_cpp_compiler='g++'
 let g:syntastic_cpp_compiler_options=' -std=c++14'
@@ -116,10 +116,10 @@ set hidden
 nmap <C-T> :enew<cr>
 
 " Move to the next buffer
-nmap <C-L> :bnext<CR>
+nmap <C-N> :bnext<CR>
 
 " Move to the previous buffer
-nmap <C-H> :bprevious<CR>
+nmap <C-M> :bprevious<CR>
 
 " Close the current buffer and move to the previous one
 " This replicates the idea of closing a tab
