@@ -71,10 +71,10 @@ set columns=80
 set laststatus=2
 let mapleader=","
 
-map <leader>h <C-W>h
-map <leader>l <C-W>l
-map <leader>j <C-W>j
-map <leader>k <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
+map <C-J> <C-W>j
+map <C-K> <C-W>k
 
 let g:syntastic_cpp_compiler='g++'
 let g:syntastic_cpp_compiler_options=' -std=c++14'
